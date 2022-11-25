@@ -39,11 +39,6 @@ body{
 }
 
 
-.mb-4 h2{
-    font-family: 'GOW';
-    color: white;
-
-}
 label{
     font-family: 'GOW';
     color: #fff;
@@ -107,39 +102,21 @@ label{
 
 @media screen and (min-width: 1100px){
     .card-img-overlay p {
-        padding: 220px 0;
+        padding: 250px 0;
         text-align: center;
         font-family: 'GOW';
         font-size: 20px;
-        color: #fff;
     
     }
 
-    .card-img-overlay h2 {
-        padding: 70px 0;
+    .card-img-overlay h5 {
+        position: relative;
         text-align: center;
         font-family: 'GOW';
-        color: #fff;
         font-size: 50px;
+        top: 100px;
     }
-}
-
-@media screen and (min-width: 600px) and (max-width: 1100px){
-    .card-img-overlay p {
-        padding: 220px 0;
-        text-align: center;
-        font-family: 'GOW';
-        font-size: 20px;
-        color: #fff;
     
-    }
-
-    .card-img-overlay h2 {
-        text-align: center;
-        font-family: 'GOW';
-        color: #fff;
-        font-size: 50px;
-    }
 }
 
 @media screen and (max-width: 1100px){
@@ -147,16 +124,15 @@ label{
         padding: 10px 0;
         text-align: center;
         font-family: 'GOW';
-        font-size: 10px;
-        color: #fff;
+        font-size: 12px;
 
     }
 
-    .card-img-overlay h2 {
+    .card-img-overlay h5 {
         text-align: center;
         font-family: 'GOW';
-        color: #fff;
         font-size: 15px;
+
     }
 }
 
@@ -189,8 +165,11 @@ a.text-white:hover {
 }
 
 
-h2{
+h5{
     font-family: 'GOW';
-    color: black;
-    padding-right: 1050px;
+    color: white;
+}
+p{
+    font-family: 'GOW';
+    color: white;
 }
